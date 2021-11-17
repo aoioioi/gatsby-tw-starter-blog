@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Inter", "Arial", sans-serif;
+  }
+
+  ol {
+    list-style-type: decimal;
+    margin-left: 16px;
+  }
+}
