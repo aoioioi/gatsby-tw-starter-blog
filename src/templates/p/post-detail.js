@@ -32,8 +32,8 @@ function postDetail(props) {
         description={`${props.data.markdownRemark.frontmatter.title} post detail`}
       />
 
+      <Header />
       <div className="xl:max-w-screen-xl xl:mx-auto mx-6 text-gray-700">
-        <Header />
 
         <main className="max-w-[38rem] mx-auto mt-8 mb-44">
           <h2 className="text-lg font-semibold">{props.data.markdownRemark.frontmatter.title}</h2>

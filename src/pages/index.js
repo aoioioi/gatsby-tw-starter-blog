@@ -12,9 +12,9 @@ const IndexPage = () => {
         description="A blog created with Gatsby, GraphQL and TW"
       />
 
-      <div className="xl:max-w-screen-xl xl:mx-auto mx-6 text-gray-700">
-        <Header />
-        <main>
+      <Header />
+      <div className="xl:max-w-screen-xl mx-auto text-gray-700">
+        <main className="mx-6">
           <Posts />
         </main>
         <Footer />

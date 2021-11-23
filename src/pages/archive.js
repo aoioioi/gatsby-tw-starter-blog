@@ -12,9 +12,9 @@ function archive() {
         description="Blog archive"
       />
 
-      <div className="xl:max-w-screen-xl xl:mx-auto mx-6 text-gray-700">
-        <Header />
-        <main className="mt-8 h-screen">
+      <Header />
+      <div className="xl:max-w-screen-xl mx-auto text-gray-700">
+        <main className="mt-8 mx-6 h-screen">
           <Archive />
         </main>
         <Footer />

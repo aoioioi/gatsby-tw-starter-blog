@@ -3,8 +3,8 @@ import { Link } from "gatsby";
 
 function Header() {
 	return (
-		<header>
-			<div className="flex items-center justify-between py-6">
+		<header className="xl:max-w-screen-xl mx-auto">
+			<div className="flex items-center justify-between py-6 px-6">
 				<div>
 					<Link to="/">Gatsby.js Blog</Link>
 				</div>

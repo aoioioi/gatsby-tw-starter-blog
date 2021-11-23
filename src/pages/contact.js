@@ -11,9 +11,9 @@ function contact() {
         description="Contact information"
       />
 
-      <div className="xl:max-w-screen-xl xl:mx-auto mx-6 text-gray-700">
-        <Header />
-        <main className="mt-8 h-screen">
+      <Header />
+      <div className="xl:max-w-screen-xl mx-auto text-gray-700">
+        <main className="mx-6 mt-8 h-screen">
           For enquiries, contact: youremail@domain.com
         </main>
         <Footer />
